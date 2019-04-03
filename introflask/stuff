@@ -41,3 +41,45 @@ print('\n')
 #
 # for _m in metadata.tables:
 #     print("Table Names: ", _m)
+
+
+# db_uri = 'sqlite:///chinook.db'
+# engine = create_engine(db_uri)
+# metadata = MetaData()
+# # metadata.create_all(engine)
+# metadata = MetaData(bind=engine)
+# inspector = inspect(engine)
+
+# insp = reflection.Inspector.from_engine(engine)
+#
+# # insp =(str(metadata.tables))
+# #
+# # # # reflect db schema to MetaData
+# # metadata.reflect(bind=engine)
+# # tablenames = (metadata.tables)
+# #
+# # Create MetaData instance
+# #metadata = MetaData(engine, reflect=True)
+# for table in metadata.tables.values():
+#     print(table.name)
+# # for column in table.c:
+# #     print(column.name)
+#
+# meta = (metadata.sorted_tables)
+# keys = []
+#
+# metas = insp.get_table_names()
+#
+# if metas:
+#     empty = "full"
+# else:
+#     empty = "empty"
+
+# print(isinstance(meta, str))
+
+
+#
+# query = (Album.query.all())
+# # # Get Table
+# # album = (Artists.query.all)
+#
